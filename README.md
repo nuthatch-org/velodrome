@@ -1,6 +1,6 @@
 # velodrome
 
-A [nuthatch](https://github.com/nightswatchhq/nuthatch) nest: **Velodrome on Optimism**.
+A [nuthatch](https://github.com/nuthatch-org/nuthatch) nest: **Velodrome on Optimism**.
 
 Aerodrome's predecessor, and the same ve(3,3) shape.
 
@@ -26,7 +26,7 @@ Indexed blocks **155,710,387 to 155,909,798** and sealed **9 events**. Every tab
 ## Run it
 
 ```sh
-nuthatch init --from https://github.com/nightswatchhq/velodrome
+nuthatch init --from https://github.com/nuthatch-org/velodrome
 cd velodrome
 nuthatch dev --dir . --backfill 50000 --seal-direct
 nuthatch sql --dir . "SELECT count(*) FROM \"factory__pool_created\""
